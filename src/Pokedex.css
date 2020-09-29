@@ -1,0 +1,4 @@
+.divDelPokedex {
+  display: flex;
+  flex-direction: row;
+}

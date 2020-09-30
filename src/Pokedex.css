@@ -3,3 +3,8 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
+.container {
+  width: 100%;
+  margin: 20px;
+  display: flex;
+}

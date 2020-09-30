@@ -13,10 +13,10 @@ const PokeCard = (props) => {
     const imagen = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`
     return (
         <div className='card' onClick={() => history.push(`/${id}`)}>
-            <img src={`${imagen}`} />
+            <img src={`${imagen}`} className='imagen' />
             <div className='container'>
+                <h1>#{id}</h1>
                 <h1>{name}</h1>
-                <h2>{id}</h2>
                 {types.map(e => <h2>{e}</h2>)}
             </div>
         </div>

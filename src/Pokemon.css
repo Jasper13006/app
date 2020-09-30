@@ -1,0 +1,17 @@
+.container {
+  background-color: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imagen {
+  width: 400px;
+  height: 400px;
+}
+.divDeLosTipos {
+  background-color: aquamarine;
+  width: 200px;
+  display: flex;
+  /* flex-direction: ; */
+  justify-content: space-evenly;
+}
